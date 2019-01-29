@@ -14,6 +14,10 @@ This repo houses an R function that estimates the hyperparameters <a href="https
 
 ## Theory
 
+## Intuition 
+
+DD
+
 
 ## Example
 
