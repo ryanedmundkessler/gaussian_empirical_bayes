@@ -16,7 +16,7 @@ This repo houses an R function that estimates the hyperparameters <a href="https
 
 ## Intuition 
 
-Let <a href="https://www.codecogs.com/eqnedit.php?latex=\hat{\beta}_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{\beta}_i" title="\hat{\beta}_i" /></a> be an estimate of the quality of a given unit (e.g., a hospital or teacher). 
+Let <a href="https://www.codecogs.com/eqnedit.php?latex=\hat{\beta}_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{\beta}_i" title="\hat{\beta}_i" /></a> be an estimate of the quality of a given unit (e.g., a hospital or teacher). When <a href="https://www.codecogs.com/eqnedit.php?latex=\hat{\beta}_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{\beta}_i" title="\hat{\beta}_i" /></a> is estimated to be far above (below) average, it likely to be suffering from positive (negative) estimation error. 
 
 
 ## Example
