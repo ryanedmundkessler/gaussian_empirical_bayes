@@ -18,10 +18,6 @@ and assumes the researcher has estimates <a href="https://www.codecogs.com/eqned
 
 The functions estimate the hyperparameters <a href="https://www.codecogs.com/eqnedit.php?latex=\theta&space;\equiv&space;(\mu,&space;\sigma^2)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\theta&space;\equiv&space;(\mu,&space;\sigma^2)" title="\theta \equiv (\mu, \sigma^2)" /></a> and the parameters <a href="https://www.codecogs.com/eqnedit.php?latex=\{\tilde{\mu}_i,&space;\tilde{\sigma}_i^2\}_{i=1}^N" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\{\tilde{\mu}_i,&space;\tilde{\sigma}_i^2\}_{i=1}^N" title="\{\tilde{\mu}_i, \tilde{\sigma}_i^2\}_{i=1}^N" /></a> governing the posterior distribution of  <a href="https://www.codecogs.com/eqnedit.php?latex=\beta_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\beta_i" title="\beta_i" /></a>  given  <a href="https://www.codecogs.com/eqnedit.php?latex=\hat{\beta}_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{\beta}_i" title="\hat{\beta}_i" /></a>.
 
-## Estimation
-
-[gaussian_empirical_bayes.lyx](./docs/gaussian_empirical_bayes.lyx) outlines the approach taken to estimate the hyperparameters <a href="https://www.codecogs.com/eqnedit.php?latex=\theta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\theta" title="\theta" /></a> and posterior distribution parameters <a href="https://www.codecogs.com/eqnedit.php?latex=\{\tilde{\mu}_i,&space;\tilde{\sigma}_i^2\}_{i=1}^N" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\{\tilde{\mu}_i,&space;\tilde{\sigma}_i^2\}_{i=1}^N" title="\{\tilde{\mu}_i, \tilde{\sigma}_i^2\}_{i=1}^N" /></a>.
-
 ## Intuition 
 
 Why might estimates of the posterior distribution parameters <a href="https://www.codecogs.com/eqnedit.php?latex=\{\tilde{\mu}_i,&space;\tilde{\sigma}_i^2\}_{i=1}^N" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\{\tilde{\mu}_i,&space;\tilde{\sigma}_i^2\}_{i=1}^N" title="\{\tilde{\mu}_i, \tilde{\sigma}_i^2\}_{i=1}^N" /></a> be useful? 
@@ -32,16 +28,15 @@ Let <a href="https://www.codecogs.com/eqnedit.php?latex=\hat{\beta}_i" target="_
 
 The expected level of quality <a href="https://www.codecogs.com/eqnedit.php?latex=\tilde{\mu}_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\tilde{\mu}_i" title="\tilde{\mu}_i" /></a> given the estimated quality <a href="https://www.codecogs.com/eqnedit.php?latex=\hat{\beta}_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{\beta}_i" title="\hat{\beta}_i" /></a> is (under the assumptions of the model) an optimally-chosen convex combination of the estimate <a href="https://www.codecogs.com/eqnedit.php?latex=\hat{\beta}_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{\beta}_i" title="\hat{\beta}_i" /></a> and the mean of the underlying quality process <a href="https://www.codecogs.com/eqnedit.php?latex=\mu" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mu" title="\mu" /></a>, with the weight placed on the estimate <a href="https://www.codecogs.com/eqnedit.php?latex=\hat{\beta}_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{\beta}_i" title="\hat{\beta}_i" /></a> inversely related to its variance <a href="https://www.codecogs.com/eqnedit.php?latex=\hat{\tau}_i^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{\tau}_i^2" title="\hat{\tau}_i^2" /></a>.
 
+## Estimation
+
+[gaussian_empirical_bayes.lyx](./docs/gaussian_empirical_bayes.lyx) outlines the approach taken to estimate the hyperparameters <a href="https://www.codecogs.com/eqnedit.php?latex=\theta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\theta" title="\theta" /></a> and posterior distribution parameters <a href="https://www.codecogs.com/eqnedit.php?latex=\{\tilde{\mu}_i,&space;\tilde{\sigma}_i^2\}_{i=1}^N" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\{\tilde{\mu}_i,&space;\tilde{\sigma}_i^2\}_{i=1}^N" title="\{\tilde{\mu}_i, \tilde{\sigma}_i^2\}_{i=1}^N" /></a>.
 
 ## Example
 
-
-
 ## Unit Tests
 
-
 ## Author
-
 
 Ryan Kessler
 <br>Brown University
