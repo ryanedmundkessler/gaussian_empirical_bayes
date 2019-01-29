@@ -22,7 +22,7 @@ The functions estimate the hyperparameters <a href="https://www.codecogs.com/eqn
 
 Why might estimates of the posterior distribution parameters <a href="https://www.codecogs.com/eqnedit.php?latex=\{\tilde{\mu}_i,&space;\tilde{\sigma}_i^2\}_{i=1}^N" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\{\tilde{\mu}_i,&space;\tilde{\sigma}_i^2\}_{i=1}^N" title="\{\tilde{\mu}_i, \tilde{\sigma}_i^2\}_{i=1}^N" /></a> be useful? 
 
-Some Intuition borrowed from [Chandra et al. (2016)](https://pubs.aeaweb.org/doi/pdfplus/10.1257/aer.20151080):
+Some intuition borrowed from [Chandra et al. (2016)](https://pubs.aeaweb.org/doi/pdfplus/10.1257/aer.20151080):
 
 Let <a href="https://www.codecogs.com/eqnedit.php?latex=\hat{\beta}_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{\beta}_i" title="\hat{\beta}_i" /></a> be an estimate of the quality of a given unit (e.g., a hospital or teacher). When <a href="https://www.codecogs.com/eqnedit.php?latex=\hat{\beta}_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{\beta}_i" title="\hat{\beta}_i" /></a> is estimated to be far above (below) average, it likely to be suffering from positive (negative) estimation error. 
 
