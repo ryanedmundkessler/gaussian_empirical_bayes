@@ -10,6 +10,8 @@ Consider the following model:
 
 I assume the user has estimates <a href="https://www.codecogs.com/eqnedit.php?latex=\{\hat{\beta_i},&space;\hat{\tau_i}^2\}_{i=1}^N" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\{\hat{\beta_i},&space;\hat{\tau_i}^2\}_{i=1}^N" title="\{\hat{\beta_i}, \hat{\tau_i}^2\}_{i=1}^N" /></a> of <a href="https://www.codecogs.com/eqnedit.php?latex=\{\beta_i,&space;\tau_i^2\}_{i=1}^N" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\{\beta_i,&space;\tau_i^2\}_{i=1}^N" title="\{\beta_i, \tau_i^2\}_{i=1}^N" /></a>. This repo houses an R function that estimates the hyperparameters <a href="https://www.codecogs.com/eqnedit.php?latex=\theta&space;\equiv&space;(\mu,&space;\sigma^2)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\theta&space;\equiv&space;(\mu,&space;\sigma^2)" title="\theta \equiv (\mu, \sigma^2)" /></a> and the parameters <a href="https://www.codecogs.com/eqnedit.php?latex=\{\tilde{\mu}_i,&space;\tilde{\sigma}_i^2\}_{i=1}^N" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\{\tilde{\mu}_i,&space;\tilde{\sigma}_i^2\}_{i=1}^N" title="\{\tilde{\mu}_i, \tilde{\sigma}_i^2\}_{i=1}^N" /></a> governing the posterior distribution of  <a href="https://www.codecogs.com/eqnedit.php?latex=\beta_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\beta_i" title="\beta_i" /></a>  given  <a href="https://www.codecogs.com/eqnedit.php?latex=\hat{\beta}_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{\beta}_i" title="\hat{\beta}_i" /></a> following the approach of [Morris (1983)](https://www.jstor.org/stable/2287098).
 
+## Theory
+
 
 ## Example
 
