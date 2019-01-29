@@ -14,7 +14,7 @@ This repo houses R functions that estimate the hyperparameters <a href="https://
 
 ## Theory
 
-[gaussian_empirical_bayes.lyx](./docs/gaussian_empirical_bayes.lyx) outlines the approach taken to estimate the hyperparameters and the parameters governing the posterior distribution of <a href="https://www.codecogs.com/eqnedit.php?latex=\beta_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\beta_i" title="\beta_i" /></a> given <a href="https://www.codecogs.com/eqnedit.php?latex=\hat{\beta}_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{\beta}_i" title="\hat{\beta}_i" /></a>.
+[gaussian_empirical_bayes.lyx](./docs/gaussian_empirical_bayes.lyx) outlines the approach taken to estimate the hyperparameters <a href="https://www.codecogs.com/eqnedit.php?latex=\theta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\theta" title="\theta" /></a> and posterior distribution parameters 
 
 ## Intuition 
 
