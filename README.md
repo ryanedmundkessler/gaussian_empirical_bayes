@@ -19,7 +19,7 @@ I assume the user has estimates <a href="https://www.codecogs.com/eqnedit.php?la
 ## Unit Tests
 
 
-## Authors 
+## Author
 
 
 Ryan Kessler
