@@ -1,6 +1,6 @@
 # Gaussian Empirical Bayes in R
 
-Consider the following model:
+This repo contains R functions that together implement an Empirical Bayes adjustment in a model with Gaussian-distributed estimates and a Gaussian prior. In particular, consider the following model:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\hat{\beta}_i&space;=&space;\beta_i&space;&plus;&space;\nu_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{\beta}_i&space;=&space;\beta_i&space;&plus;&space;\nu_i" title="\hat{\beta}_i = \beta_i + \nu_i" /></a>
 
