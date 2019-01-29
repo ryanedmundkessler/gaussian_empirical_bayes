@@ -43,4 +43,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## References
 
+Chandra, Amitabh, Amy Finkelstein, Adam Sacarny, and Chad Syverson. 2016. Health Care Exceptionalism? Performance and Allocation in the US Health Care Sector. American Economic Review 106(8): 2110–2144.
+
 Morris, Carl N. 1983. Parametric Empirical Bayes Inference: Theory and Applications. Journal of the American Statistical Association 73(381): 47-55. 
