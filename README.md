@@ -1,4 +1,3 @@
-
 # Estimating Posterior Distribution Parameters via Parametric Empirical Bayes in R
 
 Consider the following model:
