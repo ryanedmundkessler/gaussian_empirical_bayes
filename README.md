@@ -1,6 +1,10 @@
 
 # Estimating Posterior Distribution Parameters via Parametric Empirical Bayes in R
 
+Consider the following model:
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\hat{\beta}_i&space;=&space;\beta_i&space;&plus;&space;\nu_i&space;\be" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{\beta}_i&space;=&space;\beta_i&space;&plus;&space;\nu_i&space;\be" title="\hat{\beta}_i = \beta_i + \nu_i \be" /></a>
+
 [Morris 1983](https://www.jstor.org/stable/2287098)
 
 
