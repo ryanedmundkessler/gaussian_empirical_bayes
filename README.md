@@ -4,8 +4,6 @@
 [Morris 1983](https://www.jstor.org/stable/2287098)
 
 
-## Installation 
-
 
 ## Example
 
