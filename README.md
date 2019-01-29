@@ -22,7 +22,7 @@ Let <a href="https://www.codecogs.com/eqnedit.php?latex=\hat{\beta}_i" target="_
 
 Therefore, the expected level of quality <a href="https://www.codecogs.com/eqnedit.php?latex=\tilde{\mu}_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\tilde{\mu}_i" title="\tilde{\mu}_i" /></a>, given the estimated quality <a href="https://www.codecogs.com/eqnedit.php?latex=\hat{\beta}_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{\beta}_i" title="\hat{\beta}_i" /></a>, is a convex combination of the estimate <a href="https://www.codecogs.com/eqnedit.php?latex=\hat{\beta}_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{\beta}_i" title="\hat{\beta}_i" /></a> and the mean of the underlying quality process <a href="https://www.codecogs.com/eqnedit.php?latex=\mu" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mu" title="\mu" /></a>. 
 
-The relative weight that the estimate <a href="https://www.codecogs.com/eqnedit.php?latex=\hat{\beta}_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{\beta}_i" title="\hat{\beta}_i" /></a> gets in this convex combination varies inversely with the noise of the estimate 
+The relative weight that the estimate <a href="https://www.codecogs.com/eqnedit.php?latex=\hat{\beta}_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{\beta}_i" title="\hat{\beta}_i" /></a> gets in this convex combination varies inversely with the noise of the estimate <a href="https://www.codecogs.com/eqnedit.php?latex=\hat{\tau}_i^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{\tau}_i^2" title="\hat{\tau}_i^2" /></a>. 
 
 
 ## Example
