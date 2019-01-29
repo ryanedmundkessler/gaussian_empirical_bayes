@@ -14,6 +14,8 @@ This repo houses an R function that estimates the hyperparameters <a href="https
 
 ## Theory
 
+outlines the approach to estimating the hyperparameters 
+
 ## Intuition 
 
 Intuition borrowed from [Chandra et al. (2016)](https://pubs.aeaweb.org/doi/pdfplus/10.1257/aer.20151080):
