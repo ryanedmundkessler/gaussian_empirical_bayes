@@ -1,6 +1,6 @@
 # Gaussian Empirical Bayes in R
 
-Empirical Bayes (EB) methods are commonly used to adjust for estimation error (See, e.g., [Chandra et al. 2016](https://pubs.aeaweb.org/doi/pdfplus/10.1257/aer.20151080)). 
+Empirical Bayes methods are commonly used to adjust for estimation error (See, e.g., [Chandra et al. 2016](https://pubs.aeaweb.org/doi/pdfplus/10.1257/aer.20151080)). 
 
 This repo houses [R](https://www.r-project.org/) functions to compute Empirical Bayes adjustments in a model with Gaussian-distributed estimates and a Gaussian prior. 
 
