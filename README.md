@@ -34,6 +34,8 @@ The hyperparameters <a href="https://www.codecogs.com/eqnedit.php?latex=\theta" 
 
 ## Example
 
+In XX, estimates of the posterior means are plotted against the estimates, illustrating the discipline imposed by the prior distribution. 
+
 ## Unit Tests
 
 The Monte Carlo exercise conducted in [monte_carlo.R](./test/code/monte_carlo.R) asserts that the functions deliver unbiased estimates of the hyperparameters for a given data generating process. 
