@@ -36,6 +36,8 @@ The hyperparameters <a href="https://www.codecogs.com/eqnedit.php?latex=\theta" 
 
 ## Unit Tests
 
+The Monte Carlo exercise conducted in [monte_carlo.R](./test/code/monte_carlo.R) asserts that the functions deliver unbiased estimates of the hyperparameters for a given data generating process. 
+
 ## Author
 
 Ryan Kessler
