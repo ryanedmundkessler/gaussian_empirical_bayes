@@ -11,5 +11,10 @@ os.chdir('./test/code/')
 run_python(program = 'make_test.py')
 os.chdir(root)
 
+# EXAMPLE 
+os.chdir('./example/code/')
+run_python(program = 'make_example.py')
+os.chdir(root)
+
 shutil.rmtree('python_lib')
 raw_input('\n Press <Enter> to exit')
