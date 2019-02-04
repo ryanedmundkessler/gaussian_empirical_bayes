@@ -34,7 +34,7 @@ The hyperparameters <a href="https://www.codecogs.com/eqnedit.php?latex=\theta" 
 
 ## Example
 
-In XX, data is simulated and estimates of the posterior means <a href="https://www.codecogs.com/eqnedit.php?latex=\tilde{\mu}_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\tilde{\mu}_i" title="\tilde{\mu}_i" /></a> are plotted against the estimates <a href="https://www.codecogs.com/eqnedit.php?latex=\hat{\beta}_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{\beta}_i" title="\hat{\beta}_i" /></a>, illustrating the shrinkage imposed by the prior distribution. 
+In [example.R](./example/code/example.R), data is simulated and estimates of the posterior means <a href="https://www.codecogs.com/eqnedit.php?latex=\tilde{\mu}_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\tilde{\mu}_i" title="\tilde{\mu}_i" /></a> are plotted against the estimates <a href="https://www.codecogs.com/eqnedit.php?latex=\hat{\beta}_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{\beta}_i" title="\hat{\beta}_i" /></a>, illustrating the shrinkage imposed by the prior distribution. 
 
 ## Unit Tests
 
