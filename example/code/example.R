@@ -1,5 +1,5 @@
 source('../../r/gaussian_empirical_bayes.R')
-set.seed(19280)
+set.seed(19281)
 
 main <- function() {
 
@@ -15,7 +15,7 @@ main <- function() {
                                                       mu       = theta$mu, 
                                                       sigma_sq = theta$sigma_sq)
 
-    pdf("../output/gaussian_eb_shrinkage.pdf", width = 8, height = 6, paper = 'special') 
+    png("../output/gaussian_eb_shrinkage.png") 
     plot(data$tau_sq, posterior_params$mu, ylim = c(-6, 6), 
          xlab = expression(hat(tau[i])^2), ylab = expression(tilde(mu)[i]))
     dev.off()
