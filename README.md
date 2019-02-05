@@ -36,6 +36,8 @@ The hyperparameters <a href="https://www.codecogs.com/eqnedit.php?latex=\theta" 
 
 In [example.R](./example/code/example.R), data is simulated and estimates of the posterior means <a href="https://www.codecogs.com/eqnedit.php?latex=\tilde{\mu}_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\tilde{\mu}_i" title="\tilde{\mu}_i" /></a> are plotted against the estimates <a href="https://www.codecogs.com/eqnedit.php?latex=\hat{\beta}_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{\beta}_i" title="\hat{\beta}_i" /></a>, illustrating the shrinkage imposed by the prior distribution. 
 
+![](./example/output/gaussian_eb_shrinkage.png)
+
 ## Unit Tests
 
 The Monte Carlo exercise conducted in [monte_carlo.R](./test/code/monte_carlo.R) asserts that the functions deliver unbiased estimates of the hyperparameters for a given data generating process. 
